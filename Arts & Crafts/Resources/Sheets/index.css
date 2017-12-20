@@ -1,0 +1,43 @@
+/*Set attributes of all text in the html*/
+*{
+  font-family: Helvetica;
+}
+
+/*set the image for the div containing h1*/
+.pattern{
+  background-image: url("../Images/pattern.jpeg"); /*use ../ to redirect back a directory and then into Images directory for the image.*/
+}
+
+/*All text is helvetica so need to adjust attributes just pretaining to h1*/
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+/*All text is helvetica so need to adjust attributes just pretaining to h2*/
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/*.text to select the set class and use background-color to set the color of the div.*/
+.brushes{
+  background-color: mediumspringgreen;
+}
+
+.frames{
+  background-color: lightcoral;
+}
+
+.paint{
+  background-color: skyblue;
+}
+
+/*to highlight the pricing in the text*/
+.pricing{
+  font-weight: bold;
+  color: blue;
+}
